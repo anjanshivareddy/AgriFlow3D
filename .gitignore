@@ -1,0 +1,20 @@
+# Build outputs
+agriflow.exe
+*.o
+*.a
+build/
+
+# Compressed archives (keep source, skip large zips)
+*.zip
+
+# Python helper scripts
+fix_encoding.py
+
+# VS Code / editor
+.vscode/
+*.suo
+*.user
+
+# OS files
+Thumbs.db
+.DS_Store
